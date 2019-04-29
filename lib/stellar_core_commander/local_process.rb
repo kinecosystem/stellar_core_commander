@@ -163,8 +163,6 @@ module StellarCoreCommander
 
         NETWORK_PASSPHRASE="#{network_passphrase}"
 
-        INVARIANT_CHECKS=#{invariants.to_s}
-
         [QUORUM_SET]
         THRESHOLD_PERCENT=51
         VALIDATORS=#{quorum}
